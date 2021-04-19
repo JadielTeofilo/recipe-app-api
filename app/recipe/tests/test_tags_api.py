@@ -76,4 +76,3 @@ class PrivateTagsApiTests(TestCase):
         }
         res = self.client.post(TAGS_URL, payload)
         self.assertTrue(res.status_code, status.HTTP_400_BAD_REQUEST)
-
